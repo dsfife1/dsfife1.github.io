@@ -26,10 +26,10 @@ links:
   - icon: "academicons/orcid"
     url: "https://orcid.org/0000-0003-4999-4600"
 interests:
-  - "Large Language Models"
-  - "Computer Vision"
-  - "Reinforcement Learning"
-  - "AI Ethics"
+  - "Precision Machine Design"
+  - "Compliant Mechanical Systems"
+  - "Microfabrication"
+  - "Environmental Control and Stabilization"
 education:
   - degree: "PhD Mechanical Engineering"
     institution: "Massachusetts Institute of Technology"
@@ -40,24 +40,26 @@ education:
     institution: "Massachusetts Institute of Technology"
     start: "2021-09"
     end: "2023-05"
-  - degree: "BS Computer Science"
-    institution: "Geoergia Institute of Technology"
+  - degree: "BS Mechanical Engineering"
+    institution: "Georgia Institute of Technology"
     start: "2018-09"
     end: "2021-05"
 skills:
   - name: "Technical Skills"
     items:
-      - label: "Python"
+      - label: "CAD Software (SolidWorks, Inventor)"
         level: 5
-      - label: "Machine Learning"
+      - label: "FEM/FEA (COMSOL, ANSYS)"
         level: 5
-      - label: "Cloud Computing"
+      - label: "CNC and Manual Machining"
         level: 4
+      - label: "Python (NumPy, SciPy, Matplotlib)"
+        level: 4
+      - label: "MATLAB"
+        level: 4        
   - name: "Research & Communication"
     items:
       - label: "Academic Writing"
-        level: 5
-      - label: "Conference Presentations"
         level: 4
       - label: "Grant Proposals"
         level: 4
@@ -66,8 +68,8 @@ languages:
     level: 5
     label: "Native"
   - name: "Spanish"
-    level: 4
-    label: "Fluent"
+    level: 3
+    label: "Proficient"
 awards:
   - title: "NSF Graduate Research Fellowship"
     awarder: "National Science Foundation"
