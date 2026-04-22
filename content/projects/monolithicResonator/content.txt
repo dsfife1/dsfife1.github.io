@@ -1,0 +1,25 @@
+The jig that does the fusion bonding has 4 purposes:
+
+It must apply at least 10 MPa of pressure to each paddle that is bonded to the wires
+It must align the wires with the paddles
+It must not stick to the paddles
+It must apply minimal force to the wires to prevent breakage
+To apply the pressure, 4 bolts are tightened with Belleville spring washers until flattened (these go through the largest holes in the places). The use of the spring washers ensures that the force application is repeatable. These spring washers will compress by .25 mm before unloading, which allows for up to that much differential thermal expansion before the pressure on the paddles is released. As the graphite expands less than steel, this is a critical component to ensuring that the load does not release. That being said, the highest temperature alloy that I can get disk springs in is Inconel 718 (nickel alloy) which has a max working temperature of 600 
+∘
+C, and an annealing temperature just above 900 
+∘
+C. At 900 
+∘
+C, the springs will creep and have slightly above half of the original stiffness (208 MPa vs 127 MPa). This means that I must double the 10 MPa goal to 20 MPa at room temperature. With the previously linked spring washers, I should get 19 MPa at the flat load. 
+
+To align the wires, the wires are kept taught around the pins. The paddles are kept in contact with pins to ensure repeatable alignment of paddles and wires. The rings surrounding the copper are there to apply a light force to the copper and prevent it from sliding when tightening the wires. 
+
+To ensure that the paddles do not stick to the stainless steel outer plates, a layer is necessary that does not bond to either the steel or the copper. The current plan is to use a solid graphite block (black). Quartz was identified as another possible candidate, but due to quartz's low CTE (.5 ppm/K) and high stiffness (70 GPa), it will loosen more than an equivalent graphite block. That being said, the compliance in the system should be provided by the Belleville washer, so Quartz is likely still viable if not ideal. I am currently struggling to find a location on campus to machine graphite. If I cannot machine the graphite, I will use quartz slides.
+
+To ensure that the wires do not break, there are cutouts in the top plate to allow for pins to be removed that hold the wires taught during bolting of the outer plates. Once the whole assembly is bolted together, the wires should be set in place, and so I will be able to remove these pins. Once the pins are removed, there will be additional slack in the wires between each of the paddles. This slack will allow for some movement of each of the paddles when unbolting the whole assembly. In previous tests, a slight movement in the paddles broke many of the wires. With this additional slack, the wires should hopefully not break when loosening the bolts that hold the assembly together.
+
+I printed a soft jaw for removing the bolts from the jig. Previous tests ripped wires by having the paddles lightly stuck to the jig and then the jig top and bottom would spin when detaching the bolts. With the soft jaws, I was able to remove the bolts with no issues. 
+
+The paddle did not bond to any of the pieces of graphite and detached without any problems. All of the wires were intact due to the stress-relieving pins. I will note that the jig and the wires were somewhat oxidized from the heat treatment process (as that was done in open air). The video below shows the released paddles hanging in the lab.
+
+I also tried a couple of new treatments of the bolts to prevent them from bonding to the jig. In previous tests, I had issues with the bolt sticking to washers, the washers sticking to the jig, and the bolt bonding to the nut. In this test, I put a layer of mica sheet between the washers and the jig. For the nuts, I tried two different treatments, I tried three ceramic nuts and one stainless nut that was oiled to prevent sticking (I used Kroil penetrating oil). The ceramic nuts did not bond to the stainless bolts at all, but two of the nuts shattered after the bonding was complete. I would not trust the ceramic nuts in the future. The oiled nut was weakly attached, but did not cause problems. In the future, I will continue using oiled steel nuts as the broken ceramic nuts may cause issues with incomplete bonding.
