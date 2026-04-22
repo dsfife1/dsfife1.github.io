@@ -15,8 +15,8 @@ publishDate: "2026-04-22T00:00:00Z"
 publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
+publication: "Review of Scientific Instruments"
+publication_short: "RSI"
 
 abstract: Temperature fluctuations over long time scales (≳ 1 h) are an insidious problem for precision measurements. In optical laboratories, the primary effect of temperature fluctuations is drifts in optical circuits over spatial scales of a few meters and temporal scales extending beyond a few minutes. We present a lab-scale environment temperature control system approaching 10 mK-level temperature instability across a lab for integration times above an hour and extending to a day. This is achieved by passive isolation of the laboratory space from the building walls using a circulating air gap and an active control system feeding back to heating coils at the outlet of the laboratory’s Heating-VentilationAir-Conditioning (HVAC) unit. These techniques together result in 20 dB suppression of the temperature power spectrum across the lab at 10^−4 Hz—approaching the limit set by statistical coherence of the temperature field—and 10 mK Allan deviation around 15 ○C after an hour of averaging, which is an order of magnitude better than any previous report for a full laboratory.
 
@@ -33,32 +33,16 @@ featured: true
 
 hugoblox:
   ids:
-    arxiv: 1512.04133v1
+    arxiv: 2404.07101
 
 links:
-- type: preprint
-  provider: arxiv
-  id: 1512.04133v1
-- type: code
-  url: https://github.com/HugoBlox/kit
-- type: slides
-  url: https://www.slideshare.net/
-- type: dataset
-  url: "#"
-- type: poster
-  url: "#"
-- type: source
-  url: "#"
-- type: video
-  url: https://youtube.com
-- type: custom
-  label: Custom Link
-  url: http://example.org
-
+- type: url
+  provider: doi
+  id: https://doi.org/10.1063/5.0213133
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: 'Airflow Architecture'
   focal_point: ""
   preview_only: false
 
@@ -67,8 +51,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-- internal-project
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
@@ -77,11 +60,4 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-This work is driven by the results in my [previous paper](/publications/conference-paper/) on LLMs.
-
-> [!NOTE]
-> Create your slides in Markdown - click the *Slides* button to check out the example.
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
 
