@@ -39,14 +39,14 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: 'My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        My research at MIT focuses on precision mechanical systems at the boundary of classical and quantum physics. I design and build macroscopic mechanical resonators with high mechanical quality factors, which serve as test masses for experiments probing quantum gravity.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        This work requires deep engagement with physical systems across every stage: designing and machining custom ultra-high vacuum hardware, developing low-noise sensing and actuation schemes, and characterizing mechanical behavior through frequency-domain measurement and noise modeling. Recent projects include a UHV-compatible wire tension stage, fusion-bonded copper wire resonators, and optical lever readout for a laser-cooled torsional oscillator.
 
-        Please reach out to collaborate 😃
+        I am particularly drawn to problems at the intersection of precision machine design, environmental isolation, and metrology — building instruments that resolve physical signals at the limits set by fundamental noise sources. Please reach out to collaborate.
     design:
       columns: '1'
   - block: collection
