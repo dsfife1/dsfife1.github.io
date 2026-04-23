@@ -13,9 +13,6 @@ image:
 A ultra-high vacuum (UHV)-compatible stage for applying and measuring tension in wire resonators. All components have been machined and the system is currently being cleaned prior to final assembly.
 
 <!--more-->
-
-![Partially assembled tension stage](featured.jpeg)
-
 The stage has four main subsystems: an optical shadow sensor, a precision linear rail, a leadscrew driven by a NEMA motor on compliance flexures, and a wire clamp mount.
 
 ## Optics
@@ -41,6 +38,8 @@ The bottom flexure clamps to the leadscrew body via a shaft-collar arrangement; 
 ## Wire Mount
 
 The wire mount consists of a piezoelectric element bonded with epoxy to a stainless steel clamp, which is tightened onto the wire with screws. The piezo provides a means of driving ringdown measurements for mechanical quality factor characterization.
+
+There are two different piezo actuators, one that is more simple - for wire testing. And a larger flexure-based actuator for ringdown of torsional devices.
 
 ![COMSOL simulation of ringdown actuator displacement magnitude](actuator.gif)
 
