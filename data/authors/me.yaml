@@ -45,24 +45,50 @@ education:
     start: "2018-09"
     end: "2021-05"
 skills:
-  - name: "Technical Skills"
+  - name: "Programming Languages"
     items:
-      - label: "CAD Software (SolidWorks, Inventor)"
+      - label: "Python (NumPy, SciPy, Seaborn)"
         level: 5
-      - label: "FEM/FEA (COMSOL, ANSYS)"
-        level: 5
-      - label: "CNC and Manual Machining"
-        level: 4
-      - label: "Python (NumPy, SciPy, Matplotlib)"
-        level: 4
       - label: "MATLAB"
-        level: 4        
-  - name: "Research & Communication"
+        level: 5
+      - label: "Arduino"
+        level: 3
+      - label: "Java"
+        level: 3
+      - label: "C++"
+        level: 3
+  - name: "Software"
     items:
-      - label: "Academic Writing"
+      - label: "SolidWorks"
+        level: 5
+      - label: "Autodesk Inventor"
+        level: 5
+      - label: "COMSOL"
+        level: 5
+      - label: "Git"
         level: 4
-      - label: "Grant Proposals"
+      - label: "Ansys"
+        level: 3
+      - label: "Mathematica"
+        level: 3
+  - name: "Experimental Systems"
+    items:
+      - label: "Machine Design"
+        level: 5
+      - label: "Vacuum Systems"
+        level: 5
+      - label: "Frequency-Domain Signal Analysis"
+        level: 5
+      - label: "Noise Modelling"
         level: 4
+      - label: "Data Acquisition"
+        level: 4
+      - label: "Experimental Design"
+        level: 4
+      - label: "Microfabrication"
+        level: 3
+      - label: "Laser Optics"
+        level: 3
 languages:
   - name: "English"
     level: 5

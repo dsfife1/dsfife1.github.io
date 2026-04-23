@@ -14,9 +14,9 @@ A ultra-high vacuum (UHV)-compatible stage for applying and measuring tension in
 
 <!--more-->
 
-![Partially assembled tension stage](fullAssembled.jpeg)
+![Partially assembled tension stage](featured.jpeg)
 
-The stage has four main subsystems: an optical shadow sensor, a precision linear rail, a piezoelectric actuator on compliance flexures, and a wire clamp mount.
+The stage has four main subsystems: an optical shadow sensor, a precision linear rail, a leadscrew driven by a NEMA motor on compliance flexures, and a wire clamp mount.
 
 ## Optics
 
@@ -30,19 +30,19 @@ A commercial crossed-roller rail from Franke GmbH carries the carriage that hold
 
 ## Actuator
 
-The piezoelectric actuator drives the carriage vertically to apply tension to the wire. Because the actuator is mechanically weak in shear, it is isolated from off-axis loads by a pair of flexures — one at the top of the device (Y-axis) and one at the base (X-axis) — that are compliant in directions perpendicular to the actuation axis.
+A leadscrew driven by a NEMA motor drives the carriage vertically to apply tension to the wire. Because the leadscrew is mechanically weak in shear, it is isolated from off-axis loads by a pair of flexures — one at the top of the device (Y-axis) and one at the base (X-axis) — that are compliant in directions perpendicular to the actuation axis.
 
 ![X-axis (base) flexure CAD](xFlexure.png)
 
 ![Y-axis (top) flexure CAD](yFlexure.png)
 
-The bottom flexure clamps to the actuator body via a shaft-collar arrangement; the top is secured with a set screw. Machining the flexures required custom 3D-printed fixture jigs to suppress resonances during cutting. The actuator clamp was successfully fitted after the jigs were incorporated into the workflow.
-
-![COMSOL simulation of actuator displacement magnitude](actuator.gif)
+The bottom flexure clamps to the leadscrew body via a shaft-collar arrangement; the top is secured with a set screw. Machining the flexures required custom 3D-printed fixture jigs to suppress resonances during cutting. The actuator clamp was successfully fitted after the jigs were incorporated into the workflow.
 
 ## Wire Mount
 
 The wire mount consists of a piezoelectric element bonded with epoxy to a stainless steel clamp, which is tightened onto the wire with screws. The piezo provides a means of driving ringdown measurements for mechanical quality factor characterization.
+
+![COMSOL simulation of ringdown actuator displacement magnitude](actuator.gif)
 
 ## Machining and UHV Compatibility
 
