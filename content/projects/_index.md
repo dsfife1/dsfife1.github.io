@@ -12,7 +12,7 @@ sections:
   - block: collection
     content:
       title: Selected Projects
-      text: I have had a breadth of different projects I've worked on over the years. Here's my favorites.
+      text: I have had a breadth of projects I've worked on over the years. Here are my favorites.
       filters:
         folders:
           - projects
